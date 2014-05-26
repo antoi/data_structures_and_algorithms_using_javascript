@@ -1,5 +1,5 @@
 /*var david = {
-   first_name: "David", 
+   first_name: "David",
    last_name: "Durr"
 };
 
@@ -25,8 +25,8 @@ function initials() {
    return this.first[0] + this.middle[0] + this.last[0];
 }
 
-var aPerson = new Person("John","Quincy","Public");
-console.log("First name: " + aPerson.first);
-console.log("Middle name: " + aPerson.middle);
-console.log("Last name: " + aPerson.last);
-console.log("Initials: " + aPerson.initials());
+var oPerson = new Person("John","Quincy","Public");
+console.log("First name: " + oPerson.first);
+console.log("Middle name: " + oPerson.middle);
+console.log("Last name: " + oPerson.last);
+console.log("Initials: " + oPerson.initials());
